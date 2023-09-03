@@ -6,11 +6,20 @@ The Secure_Sense_Notify App is a Python-based web application that allows users 
 
 ## Features
 
-- Turn on/off the camera.
-- View saved video logs.
-- Play, pause, rewind, fast forward, and download video logs.
-- Upload videos to Google Cloud storage.
-- Integration with a backend API for camera control and video management.
+- **Detecting Person**: 
+   - Utilizes a pre-trained AI model to detect the presence of a person.
+- **Camera Control**:
+   - Turn on/off the camera.
+- **Logs**:
+   - View saved video logs.
+   - Play, pause, rewind, fast forward, and download video logs.
+- **Google Cloud Integration**:
+   - Upload videos to Google Cloud storage.
+   - Access saved videos from Google Cloud storage.
+- **Real-time Notifications**:
+   - Receive notifications when a person is detected.
+- **User-Friendly UI**:
+   - A user-friendly interface built with React.js, HTML, and CSS.
 
 ## Installation
 
