@@ -18,6 +18,22 @@ To run the Security System Web App locally, follow these steps:
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/RealLionelMuhire/Secure_Sense_Notify.git
+	```bash
+	git clone https://github.com/your-username/RealLionelMuhire/Secure_Sense_Notify.git
 
+2. Change to the project directory:
+
+	```bash
+	cd Secure_Sense_Notify
+
+3. Install dependencies:
+
+	```bash
+	npm install
+
+4. Start the development server:
+
+	```bash
+	npm start
+
+It will be accessible on  http://localhost:3000/
