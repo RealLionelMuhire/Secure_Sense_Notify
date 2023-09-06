@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'; // You can create and import your main CSS file
+
+// Import your custom components
+import SystemCamera from './components/SystemCamera';
+import VideoPlayback from './components/VideoPlayback';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Add navigation (tabs or menu) */}
+      <nav>
+        <ul>
+          <li>System Camera</li>
+          <li>Video Playback</li>
+        </ul>
+      </nav>
+
+      {/* Render components based on selected tab */}
+      {/* For now, we'll display System Camera by default */}
+      <SystemCamera />
     </div>
   );
 }
 
 export default App;
+

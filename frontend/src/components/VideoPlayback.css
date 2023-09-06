@@ -1,0 +1,34 @@
+/* VideoPlayback.css */
+/* Bootstrap CSS classes for Video Playback component */
+
+/* Center-align text and elements */
+.video-playback {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Large font for headers */
+h1 {
+  font-size: 2rem;
+}
+
+/* Style for the video player */
+.video-player {
+  margin-top: 20px;
+}
+
+/* Style for the "Back to Logs" button */
+.back-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* Style for the "Back to Logs" button on hover */
+.back-button:hover {
+  background-color: #0056b3;
+}
+
